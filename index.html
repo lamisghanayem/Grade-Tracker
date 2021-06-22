@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Grade Tracker</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+     <h1>Grades Tracker</h1>
+    </header>
+    <main>
+        <section id="firstContainer">
+            <form id="studentForm">
+                <label for="nameField">Student Name</label>
+                <br>
+                <input type="text" id="nameField" name="nameField">
+                <br>
+                <label for="courseField">Course</label>
+                <br>
+                <select name="courseField" id="courseField">
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Art">Art</option>
+                    <option value="Science">Science</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="submit" id="btn">
+            </form>
+
+        </section>
+
+        <section id="secondContainer">
+            <table id="tableResult">
+
+            </table>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
